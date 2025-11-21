@@ -6,11 +6,23 @@ import Data1 from "./componets/Data1";
 import Data2 from "./componets/Data2";
 
 function App() {
+  let value = [
+    {
+      name: "Shyam",
+      age: 25,
+      email: "shyam@hgmail.com",
+    },
+    {
+      name: "Tyam",
+      age: 23,
+      email: "Tyam@hgmail.com",
+    },
+  ];
   return (
     <>
       <h1>hello</h1>
-      <Data1 name="Shyam" age="25" email="shyam@hgmail.com"></Data1>
-      <Data1 name="Ram" age="21" email="ram@hgmail.com"></Data1>
+      <Data1 value={value[0]}></Data1>
+      <Data1 value={value[1]}></Data1>
       <Data2></Data2>
     </>
   );

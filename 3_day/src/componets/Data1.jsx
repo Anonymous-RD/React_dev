@@ -5,9 +5,9 @@ function Data1(props) {
 
   return (
     <div>
-      <h2>Data = {props.name}</h2>
-      <h2>Age = {props.age}</h2>
-      <h2>email = {props.email}</h2>
+      <h2>Data = {props.value.name}</h2>
+      <h2>Age = {props.value.age}</h2>
+      <h2>email = {props.value.email}</h2>
     </div>
   );
 }
