@@ -14,9 +14,9 @@ function Card() {
       email: "Tyam@hgmail.com",
     },
     {
-      name: "Tyam",
+      name: "sita",
       age: 23,
-      email: "Tyam@hgmail.com",
+      email: "sita@hgmail.com",
     },
   ];
   return (
